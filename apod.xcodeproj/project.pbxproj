@@ -13,7 +13,42 @@
 		E2240B6628824E2500EC7D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2240B6428824E2500EC7D82 /* Main.storyboard */; };
 		E2240B6828824E2600EC7D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2240B6728824E2600EC7D82 /* Assets.xcassets */; };
 		E2240B6B28824E2600EC7D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2240B6928824E2600EC7D82 /* LaunchScreen.storyboard */; };
+		E2240B732882C4BC00EC7D82 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B722882C4BC00EC7D82 /* FeedViewController.swift */; };
+		E2240B752882C4E500EC7D82 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B742882C4E500EC7D82 /* SearchViewController.swift */; };
+		E2240B772882C50B00EC7D82 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B762882C50B00EC7D82 /* APODViewController.swift */; };
+		E2240B792882C7E800EC7D82 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B782882C7E800EC7D82 /* APIService.swift */; };
+		E2240B7B2882C99A00EC7D82 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B7A2882C99A00EC7D82 /* Apod.swift */; };
+		E2240B7D28830A4400EC7D82 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B7C28830A4400EC7D82 /* FeedListViewModel.swift */; };
+		E2240B7F28830AC300EC7D82 /* PhotoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B7E28830AC300EC7D82 /* PhotoListTableViewCell.swift */; };
+		E2240B812883E0AF00EC7D82 /* PhotoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2240B802883E0AF00EC7D82 /* PhotoListTableViewCell.xib */; };
+		E2240B832884396800EC7D82 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B822884396800EC7D82 /* SearchViewModel.swift */; };
+		E2240B86288452F000EC7D82 /* FavApodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2240B84288452F000EC7D82 /* FavApodModel.xcdatamodeld */; };
+		E2240B8D2884572100EC7D82 /* ApodEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B8B2884572100EC7D82 /* ApodEntity+CoreDataClass.swift */; };
+		E2240B8E2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B8C2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift */; };
+		E2240B90288457F700EC7D82 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B8F288457F700EC7D82 /* FavouriteViewController.swift */; };
+		E2240B922884768A00EC7D82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B912884768A00EC7D82 /* CoreDataStack.swift */; };
+		E2240B9428847A8100EC7D82 /* FavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B9328847A8100EC7D82 /* FavouriteViewModel.swift */; };
+		E2240B98288636A000EC7D82 /* PhotoListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B97288636A000EC7D82 /* PhotoListCellViewModel.swift */; };
+		E2240B9E2886452800EC7D82 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B9D2886452800EC7D82 /* APODViewModel.swift */; };
+		E2240BA12886517A00EC7D82 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240BA02886517A00EC7D82 /* InternetConnectionManager.swift */; };
+		E2240BAB2886551E00EC7D82 /* apodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240BAA2886551E00EC7D82 /* apodTests.swift */; };
+		E2240BB12886552800EC7D82 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240BA22886550B00EC7D82 /* CoreDataStackTests.swift */; };
+		E2240BB2288655D100EC7D82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B912884768A00EC7D82 /* CoreDataStack.swift */; };
+		E2240BB328865EEC00EC7D82 /* ApodEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B8B2884572100EC7D82 /* ApodEntity+CoreDataClass.swift */; };
+		E2240BB428865EEC00EC7D82 /* ApodEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B8C2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift */; };
+		E2240BB62886661500EC7D82 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240BB52886661500EC7D82 /* Utility.swift */; };
+		E2240BB7288669B900EC7D82 /* PhotoListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240B97288636A000EC7D82 /* PhotoListCellViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2240BAC2886551E00EC7D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2240B5328824E2500EC7D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2240B5A28824E2500EC7D82;
+			remoteInfo = apod;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E2240B5B28824E2500EC7D82 /* apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +59,39 @@
 		E2240B6728824E2600EC7D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2240B6A28824E2600EC7D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2240B6C28824E2600EC7D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2240B722882C4BC00EC7D82 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E2240B742882C4E500EC7D82 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E2240B762882C50B00EC7D82 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		E2240B782882C7E800EC7D82 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E2240B7A2882C99A00EC7D82 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
+		E2240B7C28830A4400EC7D82 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
+		E2240B7E28830AC300EC7D82 /* PhotoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListTableViewCell.swift; sourceTree = "<group>"; };
+		E2240B802883E0AF00EC7D82 /* PhotoListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListTableViewCell.xib; sourceTree = "<group>"; };
+		E2240B822884396800EC7D82 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		E2240B85288452F000EC7D82 /* FavApodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavApodModel.xcdatamodel; sourceTree = "<group>"; };
+		E2240B8B2884572100EC7D82 /* ApodEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ApodEntity+CoreDataClass.swift"; path = "apod/ApodEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E2240B8C2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ApodEntity+CoreDataProperties.swift"; path = "apod/ApodEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E2240B8F288457F700EC7D82 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		E2240B912884768A00EC7D82 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E2240B9328847A8100EC7D82 /* FavouriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
+		E2240B97288636A000EC7D82 /* PhotoListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCellViewModel.swift; sourceTree = "<group>"; };
+		E2240B9D2886452800EC7D82 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		E2240BA02886517A00EC7D82 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
+		E2240BA22886550B00EC7D82 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackTests.swift; sourceTree = "<group>"; };
+		E2240BA82886551E00EC7D82 /* apodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2240BAA2886551E00EC7D82 /* apodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apodTests.swift; sourceTree = "<group>"; };
+		E2240BB52886661500EC7D82 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E2240B5828824E2500EC7D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240BA52886551E00EC7D82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +104,11 @@
 		E2240B5228824E2500EC7D82 = {
 			isa = PBXGroup;
 			children = (
+				E2240BA22886550B00EC7D82 /* CoreDataStackTests.swift */,
+				E2240B8B2884572100EC7D82 /* ApodEntity+CoreDataClass.swift */,
+				E2240B8C2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift */,
 				E2240B5D28824E2500EC7D82 /* apod */,
+				E2240BA92886551E00EC7D82 /* apodTests */,
 				E2240B5C28824E2500EC7D82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E2240B5B28824E2500EC7D82 /* apod.app */,
+				E2240BA82886551E00EC7D82 /* apodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +125,7 @@
 		E2240B5D28824E2500EC7D82 /* apod */ = {
 			isa = PBXGroup;
 			children = (
+				E2240BA02886517A00EC7D82 /* InternetConnectionManager.swift */,
 				E2240B5E28824E2500EC7D82 /* AppDelegate.swift */,
 				E2240B6028824E2500EC7D82 /* SceneDelegate.swift */,
 				E2240B6228824E2500EC7D82 /* ViewController.swift */,
@@ -63,8 +133,72 @@
 				E2240B6728824E2600EC7D82 /* Assets.xcassets */,
 				E2240B6928824E2600EC7D82 /* LaunchScreen.storyboard */,
 				E2240B6C28824E2600EC7D82 /* Info.plist */,
+				E2240B992886449000EC7D82 /* Feed */,
+				E2240B9B288644BE00EC7D82 /* Search */,
+				E2240B9F2886452E00EC7D82 /* today */,
+				E2240B9C288644D700EC7D82 /* Models */,
+				E2240B84288452F000EC7D82 /* FavApodModel.xcdatamodeld */,
+				E2240B802883E0AF00EC7D82 /* PhotoListTableViewCell.xib */,
+				E2240B9A2886449E00EC7D82 /* Favourite */,
+				E2240B912884768A00EC7D82 /* CoreDataStack.swift */,
+				E2240B782882C7E800EC7D82 /* APIService.swift */,
+				E2240BB52886661500EC7D82 /* Utility.swift */,
 			);
 			path = apod;
+			sourceTree = "<group>";
+		};
+		E2240B992886449000EC7D82 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E2240B7E28830AC300EC7D82 /* PhotoListTableViewCell.swift */,
+				E2240B722882C4BC00EC7D82 /* FeedViewController.swift */,
+				E2240B7C28830A4400EC7D82 /* FeedListViewModel.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E2240B9A2886449E00EC7D82 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				E2240B8F288457F700EC7D82 /* FavouriteViewController.swift */,
+				E2240B9328847A8100EC7D82 /* FavouriteViewModel.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		E2240B9B288644BE00EC7D82 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E2240B742882C4E500EC7D82 /* SearchViewController.swift */,
+				E2240B822884396800EC7D82 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E2240B9C288644D700EC7D82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2240B97288636A000EC7D82 /* PhotoListCellViewModel.swift */,
+				E2240B7A2882C99A00EC7D82 /* Apod.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2240B9F2886452E00EC7D82 /* today */ = {
+			isa = PBXGroup;
+			children = (
+				E2240B762882C50B00EC7D82 /* APODViewController.swift */,
+				E2240B9D2886452800EC7D82 /* APODViewModel.swift */,
+			);
+			path = today;
+			sourceTree = "<group>";
+		};
+		E2240BA92886551E00EC7D82 /* apodTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2240BAA2886551E00EC7D82 /* apodTests.swift */,
+			);
+			path = apodTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +221,24 @@
 			productReference = E2240B5B28824E2500EC7D82 /* apod.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2240BA72886551E00EC7D82 /* apodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2240BAE2886551E00EC7D82 /* Build configuration list for PBXNativeTarget "apodTests" */;
+			buildPhases = (
+				E2240BA42886551E00EC7D82 /* Sources */,
+				E2240BA52886551E00EC7D82 /* Frameworks */,
+				E2240BA62886551E00EC7D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2240BAD2886551E00EC7D82 /* PBXTargetDependency */,
+			);
+			name = apodTests;
+			productName = apodTests;
+			productReference = E2240BA82886551E00EC7D82 /* apodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +251,10 @@
 				TargetAttributes = {
 					E2240B5A28824E2500EC7D82 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					E2240BA72886551E00EC7D82 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E2240B5A28824E2500EC7D82;
 					};
 				};
 			};
@@ -116,6 +272,7 @@
 			projectRoot = "";
 			targets = (
 				E2240B5A28824E2500EC7D82 /* apod */,
+				E2240BA72886551E00EC7D82 /* apodTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +282,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2240B812883E0AF00EC7D82 /* PhotoListTableViewCell.xib in Resources */,
 				E2240B6B28824E2600EC7D82 /* LaunchScreen.storyboard in Resources */,
 				E2240B6828824E2600EC7D82 /* Assets.xcassets in Resources */,
 				E2240B6628824E2500EC7D82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240BA62886551E00EC7D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +303,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2240BA12886517A00EC7D82 /* InternetConnectionManager.swift in Sources */,
+				E2240B98288636A000EC7D82 /* PhotoListCellViewModel.swift in Sources */,
+				E2240B832884396800EC7D82 /* SearchViewModel.swift in Sources */,
+				E2240B772882C50B00EC7D82 /* APODViewController.swift in Sources */,
+				E2240B9428847A8100EC7D82 /* FavouriteViewModel.swift in Sources */,
+				E2240B7D28830A4400EC7D82 /* FeedListViewModel.swift in Sources */,
+				E2240B7F28830AC300EC7D82 /* PhotoListTableViewCell.swift in Sources */,
+				E2240B7B2882C99A00EC7D82 /* Apod.swift in Sources */,
+				E2240B792882C7E800EC7D82 /* APIService.swift in Sources */,
+				E2240B752882C4E500EC7D82 /* SearchViewController.swift in Sources */,
+				E2240B9E2886452800EC7D82 /* APODViewModel.swift in Sources */,
+				E2240B922884768A00EC7D82 /* CoreDataStack.swift in Sources */,
 				E2240B6328824E2500EC7D82 /* ViewController.swift in Sources */,
+				E2240B8D2884572100EC7D82 /* ApodEntity+CoreDataClass.swift in Sources */,
+				E2240BB62886661500EC7D82 /* Utility.swift in Sources */,
 				E2240B5F28824E2500EC7D82 /* AppDelegate.swift in Sources */,
+				E2240B732882C4BC00EC7D82 /* FeedViewController.swift in Sources */,
 				E2240B6128824E2500EC7D82 /* SceneDelegate.swift in Sources */,
+				E2240B8E2884572100EC7D82 /* ApodEntity+CoreDataProperties.swift in Sources */,
+				E2240B90288457F700EC7D82 /* FavouriteViewController.swift in Sources */,
+				E2240B86288452F000EC7D82 /* FavApodModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240BA42886551E00EC7D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2240BB2288655D100EC7D82 /* CoreDataStack.swift in Sources */,
+				E2240BB7288669B900EC7D82 /* PhotoListCellViewModel.swift in Sources */,
+				E2240BB428865EEC00EC7D82 /* ApodEntity+CoreDataProperties.swift in Sources */,
+				E2240BAB2886551E00EC7D82 /* apodTests.swift in Sources */,
+				E2240BB328865EEC00EC7D82 /* ApodEntity+CoreDataClass.swift in Sources */,
+				E2240BB12886552800EC7D82 /* CoreDataStackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2240BAD2886551E00EC7D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2240B5A28824E2500EC7D82 /* apod */;
+			targetProxy = E2240BAC2886551E00EC7D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E2240B6428824E2500EC7D82 /* Main.storyboard */ = {
@@ -302,7 +506,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod.apod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,11 +534,57 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod.apod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2240BAF2886551E00EC7D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W86DSXU3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod.apodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apod.app/apod";
+			};
+			name = Debug;
+		};
+		E2240BB02886551E00EC7D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W86DSXU3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apod.apodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apod.app/apod";
 			};
 			name = Release;
 		};
@@ -359,7 +609,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E2240BAE2886551E00EC7D82 /* Build configuration list for PBXNativeTarget "apodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2240BAF2886551E00EC7D82 /* Debug */,
+				E2240BB02886551E00EC7D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2240B84288452F000EC7D82 /* FavApodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2240B85288452F000EC7D82 /* FavApodModel.xcdatamodel */,
+			);
+			currentVersion = E2240B85288452F000EC7D82 /* FavApodModel.xcdatamodel */;
+			path = FavApodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E2240B5328824E2500EC7D82 /* Project object */;
 }
